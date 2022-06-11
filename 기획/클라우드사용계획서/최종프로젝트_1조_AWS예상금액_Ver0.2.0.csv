@@ -1,0 +1,28 @@
+﻿그룹 계층 구조,리전,설명,서비스,선결제,월별,처음 12개월 합계,통화,구성 요약
+My Estimate,아시아 태평양(서울),WEB,Amazon EC2,0,29.908,358.9,USD,"운영 체제 (Linux), 스토리지 크기 (20 GB), DT 인바운드: Not selected (0 월별 TB), DT 아웃바운드: Not selected (0 월별 TB), DT 리전 내: (0 월별 TB), 워크로드 (Daily, (워크로드 일수: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, 기준선: 2, 피크: 4, 피크 기간: 12 Hr 00 Min)), 고급 EC2 인스턴스 (t2.micro), Pricing strategy (EC2 Instance Savings Plans 1 Year  None upfront), 스냅샷 빈도 (스냅샷 스토리지 없음)"
+My Estimate,아시아 태평양(서울),WAS,Amazon EC2,0,29.908,358.9,USD,"운영 체제 (Linux), 스토리지 크기 (20 GB), DT 인바운드: Not selected (0 월별 TB), DT 아웃바운드: Not selected (0 월별 TB), DT 리전 내: (0 월별 TB), 워크로드 (Daily, (워크로드 일수: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, 기준선: 2, 피크: 4, 피크 기간: 12 Hr 00 Min)), 고급 EC2 인스턴스 (t2.micro), Pricing strategy (EC2 Instance Savings Plans 1 Year  None upfront), 스냅샷 빈도 (스냅샷 스토리지 없음)"
+My Estimate,아시아 태평양(서울),Bastion,Amazon EC2,0,8.56,102.72,USD,"운영 체제 (Linux), 수량 (1), 요금 전략 (EC2 Instance Savings Plans 1년 선결제 없음), 스토리지 크기 (20 GB), 인스턴스 유형 (t2.micro)"
+My Estimate,아시아 태평양(서울),,VPN Connection,0,24.33,291.96,USD,"월별 근무일 (22), Site-to-Site VPN 연결 수 (2)"
+My Estimate,아시아 태평양(서울),,Data Transfer,0,6.3,75.6,USD,"DT 인바운드: Internet (50 월별 GB), DT 아웃바운드: Internet (50 월별 GB), DT 리전 내: (0 월별 TB), 데이터 전송 비용 (6.3)"
+My Estimate,아시아 태평양(서울),,Amazon RDS for MySQL,0,46.24,554.88,USD,"각 RDS 인스턴스의 스토리지 (범용 SSD(gp2)), 스토리지 크기 (30 GB), 수량 (1), 인스턴스 유형 (db.t2.micro), 사용률(온디맨드 전용) (100 %Utilized/Month), 배포 옵션 (Multi-AZ), 요금 모델 (OnDemand)"
+My Estimate,아시아 태평양(서울),,S3 Standard,0,5,60,USD,S3 Standard 스토리지 (200 GB 기준 월)
+My Estimate,아시아 태평양(서울),,Data Transfer,0,0,0,USD,"DT 인바운드: Internet (100 월별 GB), DT 아웃바운드: Not selected (0 월별 TB)"
+My Estimate,아시아 태평양(서울),,Amazon S3 Glacier (Glacier API only),0,0.9,10.8,USD,"데이터 전송 비용 (0), S3 Glacier 스토리지 (200 GB 기준 월)"
+My Estimate,아시아 태평양(서울),,AWS Network Firewall,0,105.95,1271.4,USD,"Network Firewall이 배포되는 가용 영역 수 (1), AWS Network Firewall 엔드포인트 수 (1), 엔드포인트당 사용량 (260 시간), 월별 처리된 데이터 (50 GB)"
+My Estimate,아시아 태평양(서울),,AWS Web Application Firewall (WAF),0,1162,13944,USD,"각 규칙 그룹 내 규칙 수 (3 월별), 웹 ACL당 규칙 그룹 수 (1 월별), 사용된 웹 ACL(액세스 제어 목록) 수 (1 월별), 웹 ACL당 관리형 규칙 그룹 수 (3 월별), 웹 ACL당 추가된 규칙 수 (1150 월별)"
+My Estimate,아시아 태평양(서울),,Amazon CloudWatch,0,95.471,1145.65,USD,"S3에 전송된 로그: 수집된 데이터 (50 GB), CloudWatch Logs로 전송된 로그: 수집된 데이터 (50 GB), 표준 로그: 수집된 데이터 (50 GB)"
+My Estimate,아시아 태평양(서울),,AWS CloudTrail,0,37,444,USD,"관리 이벤트 단위 (백만 개), 쓰기 관리 추적 (1), 읽기 관리 추적 (1), 데이터 이벤트 단위 (백만 개), S3 추적 (1), Lambda 추적 (1), 인사이트 이벤트 단위 (백만 개), 인사이트 이벤트가 포함된 추적 (1), 쓰기 관리 이벤트 (100 월별), 읽기 관리 이벤트 (100 월별), S3 작업 (2 월별), 분석된 쓰기 관리 이벤트 수 (10 월별)"
+My Estimate,아시아 태평양(서울),,AWS Key Management Service,0,8,96,USD,"고객 관리형 고객 마스터 키(CMK) 수 (2), 대칭 요청 수 (2000000)"
+My Estimate,아시아 태평양(서울),,Application Load Balancer,0,133.23,1598.76,USD,Application Load Balancer 수 (1)
+My Estimate,아시아 태평양(서울),,Network Load Balancer,0,104.03,1248.36,USD,"Network Load Balancer 수 (1), TCP에 대한 NLB당 처리된 바이트 수 (20 GB 기준 시간)"
+My Estimate,아시아 태평양(서울),,Amazon Route 53,0,0.5,6,USD,호스팅 영역 (1)
+My Estimate,아시아 태평양(서울),,Amazon GuardDuty,0,74.5,894,USD,"AWS CloudTrail 관리 이벤트 분석 (1000000 월별), VPC 흐름 로그 분석 (50 GB 기준 월), DNS 로그 분석 (10 GB 기준 월)"
+My Estimate,아시아 태평양(서울),,Amazon Inspector,0,16.61,199.32,USD,월별 스캔된 평균* EC2 인스턴스 수 (11)
+My Estimate,아시아 태평양(서울),,AWS Security Hub,0,39.7,476.4,USD,"계정 수 (1), 계정당 보안 검사 수 (10000), 계정당 수집된 결과 수 (1000000)"
+My Estimate,아시아 태평양(서울),,AWS Config,0,0.176,2.11,USD,"Config 규칙 평가 수 (115), 기록된 구성 항목 수 (20), 준수 팩 평가 수 (1)"
+My Estimate,아시아 태평양(서울),,Amazon Detective,0,115,1380,USD,"AWS CloudTrail, Amazon VPC 흐름 로그, Amazon GuardDuty에서 수집된 데이터(계정당, 리전당) (50 GB 기준 월)"
+My Estimate,아시아 태평양(서울),,AWS Secrets Manager,0,7.4,88.8,USD,"보안 정보 수 (6), 각 보안 정보의 평균 지속 시간 (30 일), API 호출 수 (1000000 월별)"
+,,,,,,,,
+,,,,,,,,
+확인,,,,,,,,
+"* AWS Pricing Calculator는 AWS 요금에 대한 예상 비용만 제공하며, 해당되는 세금은 포함하지 않습니다. 실제 요금은 AWS 서비스의 실제 사용량을 포함하여 다양한 요소에 따라 달라질 수 있습니다.",,,,,,,,
